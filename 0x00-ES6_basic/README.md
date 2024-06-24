@@ -16,22 +16,22 @@ Read or watch:
 
 ### Install NodeJS 12.22.x
 ```console
-foo@pop-os:~$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-foo@pop-os:~$ sudo bash nodesource_setup.sh
-foo@pop-os:~$ sudo apt install nodejs -y
+$ curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+$ sudo bash nodesource_setup.sh
+$ sudo apt install nodejs -y
 ```
 ### Check version
 ```console
-foo@pop-os:~$ nodejs -v
+$ nodejs -v
 v12.22.1
-foo@pop-os:~$ npm -v
+$ npm -v
 6.14.12
 ```
 ### Install Jest, Babel, and ESLint
 ```console
-foo@pop-os:~$ npm install --save-dev jest
-foo@pop-os:~$ npm install --save-dev babel-jest @babel/core @babel/preset-env
-foo@pop-os:~$ npm install --save-dev eslint
+$ npm install --save-dev jest
+$ npm install --save-dev babel-jest @babel/core @babel/preset-env
+$ npm install --save-dev eslint
 ```
 
 ## Files:
